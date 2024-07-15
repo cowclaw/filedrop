@@ -1,6 +1,6 @@
-FROM python:3.5.2-alpine
+FROM python:3.12.4
 
-RUN pip3 install flask flask-uploads
+RUN pip3 install flask Flask-Reuploaded
 
 WORKDIR /app
 ADD . /app/
